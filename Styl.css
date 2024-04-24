@@ -1,0 +1,163 @@
+img{
+    max-width: 100%;
+  }
+  .limitador{
+      max-width: 1300px;
+      margin: 0 auto;
+      background-color: #13131F;
+  }
+  #typing-animation {
+      font-family: Arial, sans-serif;
+      font-size: 22px;
+      color: #333;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 3s steps(40, end);
+  }
+    
+  @keyframes typing {
+      from {
+        width: 0
+      }
+      to {
+        width: 100%;
+      }
+    }
+  
+  .Top{
+     justify-content: center;
+     margin-top: 100px;
+     font-weight: 700;
+  }
+  .fulltop{
+      border-top: 1px solid blueviolet;
+  }
+  .navbar-toggler-icon{
+      border-color: white;
+  }
+  .button {
+    position: relative;
+    overflow: hidden;
+    height: 2rem; 
+    padding: 0 1.5rem; 
+    border-radius: 1rem; 
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  .hbll{
+    padding-top: 100px;
+    
+  }
+  .hbll h1{
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid blueviolet;
+  }
+  .hbl{
+    text-align: center;
+    
+  }
+  .hbls{
+    padding-top: 16px;
+    border: 2px solid white;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top: 5px solid rgb(101, 70, 130);
+  }
+  .hbls:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 5px black;
+    transform: translateY(-2px);
+    background-color: rgb(101, 70, 130);
+    border: 2px solid white;
+  }
+  .borrado {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    width: 300px;
+    height: 500px;
+  }
+  
+  .borrado .borrado-fundo {
+    position: absolute;
+    background-image: url("/img/EspelhoBradesco.png");
+    height: 300px;
+    width: 500px;
+    filter: blur(5px);
+    z-index: -1;
+    transition: filter ease-in-out 0.2s;
+    background-size: cover;
+    
+  }
+  
+  .borrado h3{
+    text-align: center;
+    margin-top: 145px;
+    opacity: 1;
+    transition: opacity ease-in-out 0.2s;
+  }
+  
+  .borrado:hover .borrado-fundo {
+    filter: blur(0px);
+  }
+  
+  .borrado:hover h3{
+    opacity: 0;
+  }
+  .borrado {
+    position: relative;
+    overflow: hidden; 
+  }
+  
+  .borrado:hover::before {
+    opacity: 1; 
+  }
+  
+  .conteudo-extra {
+    
+    position: absolute;
+    margin-top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    opacity: 0; 
+    transition: opacity 1s ease; 
+  }
+  
+  .borrado:hover .conteudo-extra {
+    opacity: 1;
+  }
+  

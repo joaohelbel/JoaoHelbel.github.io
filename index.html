@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styl.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="limitador">
+        <nav class="navbar navbar-expand-lg navbar-primary">
+            <a class="navbar-brand" href="#" style="color: white;">Bem-vindo ao meu Portfólio :)</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação" >
+              <span class="navbar-toggler-icon"><img src="/img/Icon.svg" alt=""></span>
+            </button>
+            <div class="collapse navbar-collapse" id="textoNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#" style="color: white;">Home <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: white;">Destaques</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: white;">Preços</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <div class="container-fluid fulltop pb-5">
+            <div class="row Top">
+                <div class="col-md-7 mt-5 pl-3">
+                    <h2 style="color: white; font-size: 50px;">Olá, Prazer sou o</h2>
+                    <div id="typing-animation" style="color: rgb(134, 12, 248); font-size: 30px;"></div>
+                    <p style="color: gray;">Desenvolvedor Front End | JavaScript | Python </p>
+                    <button id="downloadBtn" class="button">
+                      <span class="button-content">Download CV</span>
+                    </button>
+                    <button class="button">
+                      <span class="button-content">Entre em contato</span>
+                    </button>
+                    
+                </div>
+                <div class="col-md-3">
+                    <img src="/img/Person.png" alt="" style="height: 250px;">
+                </div>
+            </div>
+        </div>
+      <div class="container-fluid hbll mt-5">
+        <h1 style="color: white;" >Habilidades</h1>
+              &nbsp;
+            <div class="row hbl justify-content-around mt-5">
+                <div class="col-md-1 hbls">
+                  <img src="/img/icons8-mysql.svg" alt="">
+                  <p style="color: white;">Sql</p>
+                </div>
+                <div class="col-md-1 hbls">
+                  <img src="/img/hardware.svg" alt="">
+                  <p style="color: white;">Hardware</p>
+                </div>
+                <div class="col-md-1 hbls">
+                  <img src="/img/javascript.svg" alt="">
+                  <p style="color: white;">Javascript</p>
+                </div>
+                <div class="col-md-1 hbls">
+                  <img src="/img/html5.svg" alt="">
+                  <p style="color: white;">Html</p>
+                </div>
+            </div>
+            <div class="row hbl justify-content-around mt-3">
+              <div class="col-md-1 hbls">
+                <img src="/img/bootstrap.svg" alt="">
+                <p style="color: white;">Bootstrap</p>
+              </div>
+              <div class="col-md-1 hbls">
+                <img src="/img/icons8-python.svg" alt="">
+                <p style="color: white;">Python</p>
+              </div>
+              
+              <div class="col-md-1 hbls">
+                <img src="/img/tableau.svg" alt="">
+                <p style="color: white;">Tableau</p>
+              </div>
+              <div class="col-md-1 hbls">
+                <img src="/img/css.svg" alt="">
+                <p style="color: white;">CSS</p>
+              </div>
+            </div>
+            <div class="row hbl justify-content-around mt-3">
+              <div class="col-md-1 hbls">
+                <img src="/img/exel.svg" alt="">
+                <p style="color: white;">Exel</p>
+              </div>
+              <div class="col-md-1 hbls">
+                <img src="/img/PP.svg" alt="">
+                <p style="color: white;">PPT</p>
+              </div>
+              <div class="col-md-1 hbls">
+                <img src="/img/word.svg" alt="">
+                <p style="color: white;">word</p>
+              </div>
+              <div class="col-md-1">
+              </div>
+      </div>
+      </div>
+      <div class="container-fluid projetos">
+        <h1 style="color: white;" >Projetos</h1>
+        <div class="row">
+          <div class="col-md-6 borrado">
+            <div class="borrado-fundo"></div>
+            <h3 style="color: white;">Espelho Bradesco Seguros</h3>
+          </div>
+          
+          <div class="col-md-5">
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    
+    <script>
+        window.onload = function() {
+            const text = "João Pedro Helbel 😉";
+            let index = 0;
+          
+            function typeWriter() {
+              if (index < text.length) {
+                document.getElementById("typing-animation").innerHTML += text.charAt(index);
+                index++;
+                setTimeout(typeWriter, 100);
+              }
+            }
+          
+            typeWriter();
+          };
+    </script>
+    <script>
+      document.getElementById('downloadBtn').addEventListener('click', function() {
+          
+          var url = '/img/Curriculo_Joao_Helbel.pdf';
+          var fileName = 'Curriculo_Joao_Helbel.pdf';
+      
+          var link = document.createElement('a');
+          link.href = url;
+          link.download = fileName;
+
+          document.body.appendChild(link);
+          link.click();
+
+          document.body.removeChild(link);
+          alert('Currículo baixado!');
+      });
+      
+  </script>
+    
+      
+</html>

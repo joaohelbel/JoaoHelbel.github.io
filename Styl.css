@@ -112,13 +112,15 @@ border: 2px solid white;
     );
     color: white;
     font-weight: 600;
-    padding: 20px;
     border: hidden;
     border-radius: 7px;
+    height: 70px;
+    width: 200px;
 }
 .projetos h1{
     text-align: center;
-    border-top: 1px solid blueviolet;   
+    border-top: 1px solid blueviolet;
+    padding-top: 15px;   
 }
 .cardss{
     text-align: center;

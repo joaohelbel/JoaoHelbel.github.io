@@ -217,11 +217,11 @@
           <!-- Button trigger modal -->
           <button type="button" class="botaoEpl" data-toggle="modal" data-target="#exampleModalConversor">
             Conversor de moedas JS
-          </button>          
+          </button>
 
           <!-- Modal -->
-          <div class="modal fade" id="exampleModalConversor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
+          <div class="modal fade" id="exampleModalConversor" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -231,14 +231,14 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <video controls autoplay>
+                  <video controls autoplay muted>
                     <source src="img/Conversor.mp4" type="video/mp4">
                   </video>
                 </div>
                 <div class="modal-footer">
                   <p>Desenvolvi um conversor de moeda utilizando JavaScript, uma aplicação web que permite aos usuários
                     converter valores entre diferentes moedas de forma rápida e fácil. </p>
-                    <img src="img/html5.svg" alt=""> <img src="img/css.svg" alt=""> <img src="img/javascript.svg" alt="">
+                  <img src="img/html5.svg" alt=""> <img src="img/css.svg" alt=""> <img src="img/javascript.svg" alt="">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
@@ -285,39 +285,6 @@
     </div>
 
 
-    <script>
-      window.onload = function () {
-        const text = "João Pedro Helbel 😉";
-        let index = 0;
-
-        function typeWriter() {
-          if (index < text.length) {
-            document.getElementById("typing-animation").innerHTML += text.charAt(index);
-            index++;
-            setTimeout(typeWriter, 100);
-          }
-        }
-
-        typeWriter();
-      };
-    </script>
-    <script>
-      document.getElementById('downloadBtn').addEventListener('click', function () {
-
-        var url = 'img/Curriculo.Joao_Helbel.pdf';
-        var fileName = 'Curriculo_Joao_Helbel.pdf';
-
-        var link = document.createElement('a');
-        link.href = url;
-        link.download = fileName;
-
-        document.body.appendChild(link);
-        link.click();
-
-        document.body.removeChild(link);
-        alert('Currículo baixado!');
-      });
-
-    </script>
+    <script src="index.js"></script>
 
 </html>

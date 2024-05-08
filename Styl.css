@@ -108,6 +108,8 @@ video {
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
     border-top: 5px solid #5d9e7e;
+    max-width: 105px;
+    width: 100%;
 }
 
 .hbls:hover {

@@ -110,6 +110,7 @@ video {
     border-top: 5px solid #5d9e7e;
     max-width: 105px;
     width: 100%;
+    margin: 15px;
 }
 
 .hbls:hover {

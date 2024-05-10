@@ -97,7 +97,7 @@ video {
 
 .hbl {
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -111,7 +111,7 @@ video {
     border-top: 5px solid #5d9e7e;
     max-width: 105px;
     width: 100%;
-    margin: 15px;
+    margin: 20px;
 }
 
 .hbls:hover {

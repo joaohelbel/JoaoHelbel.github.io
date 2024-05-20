@@ -9,7 +9,7 @@ video {
 .limitador {
     max-width: 1300px;
     margin: 0 auto;
-    background-color: #2b2318;
+    background-color: #00233c;
 }
 
 #typing-animation {
@@ -79,8 +79,8 @@ video {
     height: inherit;
     border-radius: inherit;
     background: linear-gradient(82.3deg,
-            #5d9e7e 10.8%,
-            #78b3a4 94.3%);
+            #aedd2b 10.8%,
+            #aedd2b 94.3%);
     transition: all 0.475s;
 }
 
@@ -108,7 +108,7 @@ video {
     border-bottom-right-radius: 7px;
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
-    border-top: 5px solid #5d9e7e;
+    border-top: 5px solid #aedd2b;
     max-width: 105px;
     width: 100%;
     margin: 20px;
@@ -118,14 +118,14 @@ video {
     transition: 0.5s;
     box-shadow: 0 0 5px black;
     transform: translateY(-2px);
-    background-color: rgb(101, 70, 130);
+    background-color: #aedd2b ;
     border: 2px solid white;
 }
 
 .botaoEpl {
     background: linear-gradient(82.3deg,
-            #5d9e7e 10.8%,
-            #78b3a4 94.3%);
+            #aedd2b 10.8%,
+            #aedd2b  94.3%);
     color: white;
     font-weight: 600;
     border: hidden;

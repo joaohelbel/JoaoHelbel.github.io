@@ -1,5 +1,5 @@
 window.onload = function () {
-    const text = "João Pedro Helbel 😉";
+    const text = "João Pedro Helbel";
     let index = 0;
 
     function typeWriter() {

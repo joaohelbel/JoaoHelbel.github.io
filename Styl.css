@@ -9,7 +9,7 @@ video {
 .limitador {
     max-width: 1300px;
     margin: 0 auto;
-    background-color: #00233c;
+    background-color: #ffffff;
 }
 
 #typing-animation {
@@ -39,6 +39,13 @@ video {
 
 .fulltop {
     border-top: 1px solid #5d9e7e;
+    background-image: url(img/bgi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+
+
 }
 
 .navbar-toggler-icon {
@@ -51,7 +58,7 @@ video {
     height: 2rem;
     padding: 0 1.5rem;
     border-radius: 1rem;
-    background: #3d3a4e;
+    background: #39ABE5;
     background-size: 400%;
     color: #fff;
     border: none;
@@ -79,51 +86,57 @@ video {
     height: inherit;
     border-radius: inherit;
     background: linear-gradient(82.3deg,
-            #aedd2b 10.8%,
-            #aedd2b 94.3%);
+            #39ABE5 10.8%,
+            #0E9CE3 94.3%);
     transition: all 0.475s;
 }
 
-.hbll {
-    padding-top: 100px;
 
+.line-after {
+  display: inline-block;
+  position: relative;
 }
 
-.hbll h1 {
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #5d9e7e;
+.line-after::after {
+  content: "";
+  display: block;
+  width: 50px; 
+  height: 2px; 
+  background-color: #0E9CE3; 
+  position: absolute;
+  bottom: -5px; 
+  left: 100%; 
+  transform: translateX(-50%);
 }
 
 .hbl {
+    justify-content: space-around;
     text-align: center;
 }
 
 .hbls {
     margin-bottom: 16px;
-    padding-top: 16px;
-    border: 2px solid white;
-    border-bottom-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-top-left-radius: 7px;
-    border-top: 5px solid #aedd2b;
-    max-width: 105px;
-    width: 100%;
-    margin: 20px;
+    padding-top: 26px;
+    padding-right: 26px;
+    padding-left: 26px;
+    padding-bottom: 16px;
+    background-color: #b5e6ff;
+    border-radius: 10px;
+    margin: 10px;
+   border: 1px solid #0E9CE3;
 }
 
 .hbls:hover {
-    transition: 0.5s;
-    box-shadow: 0 0 5px black;
-    transform: translateY(-2px);
-    background-color: #aedd2b ;
-    border: 2px solid white;
+    transition: 0.1;
+    transition: all .45s ease;
+    background-color: #69c3f1;
+
 }
 
 .botaoEpl {
     background: linear-gradient(82.3deg,
             #aedd2b 10.8%,
-            #aedd2b  94.3%);
+            #aedd2b 94.3%);
     color: white;
     font-weight: 600;
     border: hidden;
